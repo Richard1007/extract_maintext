@@ -8,7 +8,6 @@ txt = records.get_text()
 
 new_txt = txt.replace('Business Source Complete', "partitionmark")
 new_txt = new_txt.replace('Footnotes', "partitionmark")
-new_txt = new_txt.replace('Supplemental Material', "partitionmark")
 
 partition = new_txt.split('partitionmark')
 print("partition", len(partition))
