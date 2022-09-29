@@ -19,7 +19,5 @@ writer.writerow(header)
 count = 1
 for i in range (len(partition)):
     if len(partition[i]) > 40000:
-        print(count)
         row = [count, partition[i]]
         writer.writerow(row)
-        count += 1

@@ -22,4 +22,3 @@ for i in range (len(partition)):
         print(count)
         row = [count, partition[i]]
         writer.writerow(row)
-        count += 1
